@@ -6,7 +6,7 @@ from .models import Data
 def index(request):
     data = Data.objects.all()
     # returns the list of objects in list 
-    data_list = Data.objects.values_list('latitude','longitude','collisions')
+    data_list = Data.objects.values_list('latitude','longitude','reports_2022')
     map = folium.Map(location=[53.544389,-113.4909],zoom_start=5.5)
     plugins.HeatMap(data_list).add_to(map)
     plugins.Fullscreen(position = 'topright').add_to(map)

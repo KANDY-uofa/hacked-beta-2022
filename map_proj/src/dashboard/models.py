@@ -4,7 +4,8 @@ import geocoder
 # Create your models here.
 class Data(models.Model):
     location = models.CharField(max_length = 100, null = True)
-    collisions = models.PositiveBigIntegerField()
+    reports_2021 = models.PositiveBigIntegerField()
+    reports_2022 = models.PositiveBigIntegerField()
     latitude = models.FloatField(default=0)
     longitude = models.FloatField(default=0)
 
