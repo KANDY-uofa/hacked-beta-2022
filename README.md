@@ -6,7 +6,7 @@
 
 
 ## Our goal was to raise awareness on **road safety**, specifically in **Alberta**. 
-#### To do so, we _compiled_ relevant data, _analyzed_ government-provided data, and _displayed_ them in a website. 
+#### To do so, we _compiled_ news data, _analyzed_ government-provided datasets, and _displayed_ them in a website. 
 ---
 ## Funtionality (C.A.D.)
 - **C**ompiles information through web scraping
