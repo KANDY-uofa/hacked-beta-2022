@@ -9,9 +9,12 @@
 #### To do so, we _compiled_ news data, _analyzed_ government-provided datasets, and _displayed_ them in a website. 
 ---
 ## Funtionality (C.A.D.)
-- **C**ompiles information through web scraping
+- **C**ompiles information through web scraping and pdf parsing
     - Scrapes news report data from a website whose approach is one of the most systematic and thorough in recording locations of collisions:
         - https://www.navbug.com/alberta_traffic.htm
+    - Extracts table from pdf files:
+         - https://open.alberta.ca/publications/0844-7985
+
 
 - **A**nalyzes government data on car collisions through machine learning
     - Uses two training models (ARIMA and Prophet) to analyze trends and to predict future occurrences
@@ -46,7 +49,8 @@
 ## Background information of contents
 - "ARIMA_Prediction_Model" directory
 - "Prophet_Prediction_Model" directory
-- "dataset" directory
+- "datasets" directory contains required datas for prediction that is parsed from pdf file 
+- "src" directory contains html files
 - "webscraping" directory contains files that scrape website data
 
 ---
