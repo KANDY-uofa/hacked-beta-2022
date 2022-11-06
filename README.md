@@ -1,22 +1,22 @@
-# Data Analysis on Vehicle Collision
+# Data Analysis on Vehicle Collision in Alberta
 ###### A project written at
 #### HackED Beta 2022,
 ###### a 24-hour hackathon hosted by
 #### University of Alberta Computer Engineering Club
 
 
-## Our underlying goal was to raise awareness on **road safety**, especially in **Alberta, Canada**. 
-### To do so, we _compiled_ relevant data for wider public accessibility, _analyzed_ government-provided data sets to illustrate a trend in car collisions, and _displayed_ aforementioned data through various displaying techniques in a website. 
+## Our goal was to raise awareness on **road safety**, specifically in **Alberta, Canada**. 
+#### To do so, we _compiled_ relevant data for wider public accessibility, _analyzed_ government-provided data sets to illustrate a trend in car collisions, and _displayed_ aforementioned data through various displaying techniques in a website. 
 ---
 ## Funtionality (C.A.D.)
-- **_C_**ompiles information through web scraping
+- **C**ompiles information through web scraping
     - Scrapes news report data from a website whose approach is one of the most systematic and thorough in recording locations of car collision:
         - https://www.navbug.com/alberta_traffic.htm
 
-- **_A_**nalyzes government-provided data on car collisions through machine learning
+- **A**nalyzes government-provided data on car collisions through machine learning
     - Uses two training models (ARIMA and Prophet) to analyze the trend and to predict the number of collisions
 
-- **_D_**isplays above data through displaying techniques on website
+- **D**isplays above data through displaying techniques on website
 
 ---
 ## Our noteworthy achievements 
@@ -45,5 +45,5 @@
 * [Dohyun Kim](https://github.com/kdhminime)
 * [Yongbin Kim](https://github.com/yongbin4) 
 * [Jamie Lee](https://github.com/jamielee0629)
-* [Takewan Yoon](https://github.com/taekwan-yoon)
+* [Taekwan Yoon](https://github.com/taekwan-yoon)
 
