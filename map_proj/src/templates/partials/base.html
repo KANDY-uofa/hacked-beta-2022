@@ -17,7 +17,7 @@
   <div class="fixed-top">
             <!-- Navbar -->
             <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
-                <a class="navbar-brand d-flex w-75 mr-auto" href="#home">Your page's name!</a>
+                <a class="navbar-brand d-flex w-50 mr-auto" href="#home">Your page's name!</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
                     <span class="navbar-toggler-icon"></span>
@@ -58,15 +58,13 @@
                 <div class="row section" id="section2">
 
 
-                    <div class="col-12">
-                        <h2>Traffic Graph</h2>
-                    </div>
-                  <div id="chart"></div>
-                  <script src="http://d3js.org/d3.v3.min.js"></script>
-                  <script src="http://d3js.org/topojson.v1.min.js"></script>
-                  <script>
-                    
-                  </script>
+                  <div class="col-12">
+                    <h2>Traffic Graph</h2>
+                  </div>
+                  <p>
+                    {% block content %}
+                    {% endblock%}    
+                  </p>
 
                 </div>
 
