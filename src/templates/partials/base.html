@@ -110,7 +110,13 @@
                       <a class="btn btn-primary btn-lg" href="https://drive.google.com/drive/folders/1FWwuNij57WDFv0C9GEZ2wF063VFhcvLN" role="button">Learn more</a>
                     </p>
                   </div>
-                  <img src = "static/images/prediction.jpeg" class="rounded img-fluid">
+                  <section id="plot">
+                	 <div class="container">
+                    	 {% autoescape off %}
+                        	{{ plot_div }}
+                   	 {% endautoescape %}
+               		 </div>
+           	  </section>
 
     
                 </div>
