@@ -44,6 +44,10 @@
     ```
     python3 web_scraper.py > scraped_data.txt
     ```
+- **Accessing Jupyter notebook**
+    1. Select machine learning model folder
+    2. click on ipython file(.ipynb)
+    3. Enjoy the model!@
 
 ---
 ## Background information of contents
