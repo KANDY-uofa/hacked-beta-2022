@@ -14,13 +14,15 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from dashboard.views import index
+from django.urls import path, include
+from dashboard.views import sum, report_2021, report_2022
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     # dashboard app
-    path('', index, name='dashboard-index'),
-
+    path('', sum, name="index"),
+    path('2021/', report_2021, name="2021"),
+    path('2022/', report_2022, name="2022"),
 ]
