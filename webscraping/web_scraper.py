@@ -7,11 +7,12 @@
 
 # Description of file: 
 #   This file scrapes the website: "https://www.navbug.com/alberta_traffic.htm".
-#   The website provides data on news reports on car collisions. Although the
-#   number of news reports may not accurately reflect the actual number of 
-#   car collisions, this website provided one of the most thoroughly tracked
-#   and systematic information. The file outputs the number of car collisions in
-#   specific years in specific areas/counties of Alberta, Canada.
+#   The website provides data on news reports on car collisions or severe road 
+#   conditions. Although the number of news reports may not accurately reflect
+#   the actual number of car collisions, this website provided one of the most
+#   thoroughly tracked and systematic information. The file outputs the number
+#   of car collisions in specific years in specific areas/counties of Alberta,
+#   Canada.
 
 # Side note:
 #   In the same folder, the output text file was generated in Nov 6, 2022.
