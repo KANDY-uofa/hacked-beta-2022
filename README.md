@@ -22,7 +22,7 @@
 ## Our noteworthy achievements 
 - **Originality**: 
     - Currently, there is _no publicly accessible compiled information_ on car collision locations
-    - Nobody else _analyzed the trends_ in car collisions using _machine learning_ 
+    - Nobody else _analyzed the trends_ in car collision using _machine learning_ in Canada
 - **Complexity**:
     - Quickly familiarized ourselves with techniques required to compile, analyze, and display data
         - Web scraping
