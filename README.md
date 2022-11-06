@@ -6,17 +6,17 @@
 
 
 ## Our underlying goal was to raise awareness on **road safety**, especially in **Alberta, Canada**. 
-###To do so, we _compiled_ relevant data for wider public accessibility, _analyzed_ government-provided data sets to illustrate a trend in car collisions, and _displayed_ aforementioned data through various displaying techniques in a website. 
+### To do so, we _compiled_ relevant data for wider public accessibility, _analyzed_ government-provided data sets to illustrate a trend in car collisions, and _displayed_ aforementioned data through various displaying techniques in a website. 
 ---
 ## Funtionality (C.A.D.)
-- **C**ompiles information through web scraping
+- **_C_**ompiles information through web scraping
     - Scrapes news report data from a website whose approach is one of the most systematic and thorough in recording locations of car collision:
         - https://www.navbug.com/alberta_traffic.htm
 
-- **A**nalyzes government-provided data on car collisions through machine learning
+- **_A_**nalyzes government-provided data on car collisions through machine learning
     - Uses two training models (ARIMA and Prophet) to analyze the trend and to predict the number of collisions
 
-- **D**isplays above data through displaying techniques on website
+- **_D_**isplays above data through displaying techniques on website
 
 ---
 ## Our noteworthy achievements 
