@@ -1,6 +1,6 @@
 # Team Name: KANDY
 # Date: November 6, 2022
-# Project: Analyzing Information on Car Collion in Canada
+# Project: Analyzing Information on Car Collision in Canada
 # Competition: HACKED(beta) 2022 at the University of Alberta
 # Author: Taekwan Yoon
 # Team Members: Taekwan Yoon, Min Joh, Jamie Lee, Yongbin Kim, Dohyun Kim
@@ -10,14 +10,15 @@
 #   The website provides data on news reports on car collisions. Although the
 #   number of news reports may not accurately reflect the actual number of 
 #   car collisions, this website provided one of the most thoroughly tracked
-#   and systematic information.  
+#   and systematic information. The file outputs the number of car collisions in
+#   specific years in specific areas/counties of Alberta, Canada.
 
 # Side note:
 #   In the same folder, the output text file was generated in Nov 6, 2022.
 #   In the terminal, type the following to newly generate the output text file:
 #               $ python3 web_scraper.py <output_file_name>
 #
-#   Warning: the compiling time may vary depending on the computer performance.
+# Warning: The compiling time may vary depending on the computer performance.
 
 # BeautifulSoup for web scraping (no JavaScript used) 
 import requests
